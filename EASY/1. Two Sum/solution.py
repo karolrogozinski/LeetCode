@@ -5,5 +5,5 @@ class Solution:
             missing = target - num
             if missing in hashmap:
                 return [hashmap[missing], idx]
-            
+
             hashmap[num] = idx
