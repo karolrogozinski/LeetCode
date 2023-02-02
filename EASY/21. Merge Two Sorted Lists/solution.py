@@ -11,14 +11,25 @@ class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], 
                       list2: Optional[ListNode]) -> Optional[ListNode]:
         
-        while list2:
-            temp = list1
-            while temp and temp.next and list2.val < temp.val:
-                temp = temp.next
-            if temp:
-                temp.next = ListNode(list2.val, temp.next)
-            list1 = temp
-            list2 = list2.next
+        result = ListNode()
+        tail = result
 
-        return list1
+        while True:
+            if not list1:
+                tail.next = list2
+                break
+            if not list2:
+                tail.next = list1
+                break
+
+            if list1.val <= list2.val:
+                tail.next = list1
+                list1 = list1.next
+            else:
+                tail.next = list2
+                list2 = list2.next
+    
+            tail = tail.next
+    
+        return result.next
     
