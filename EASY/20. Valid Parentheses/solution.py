@@ -10,10 +10,10 @@ class Solution:
         for b in s:
             if b in '([{':
                 temp.append(b)
-            else:
-                if temp and bracket_dict[b] == temp[-1]:
-                    temp.pop()
-                else:
-                    return False
+                continue
+            if temp and bracket_dict[b] == temp[-1]:
+                temp.pop()
+                continue
+            return False
 
         return not temp
