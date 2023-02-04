@@ -1,19 +1,22 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        window_size = len(s1)
-        count_dict = {l: 0 for l in'abcdefghijklmnopqrstuvwxyz'}
+        size_1 = len(s1)
+        size_2 = len(s2)
+        
+        count_dict = {l: 0 for l in string.ascii_lowercase}
+        tmp_dict = count_dict.copy()
+
         for l in s1:
             count_dict[l] = count_dict[l]+1
+        for l in s2[:size_1]:
+            tmp_dict[l] += 1
 
-        for idx in range(len(s2)-window_size+1):
-            solution = True
-            tmp = s2[idx:idx+window_size]
-            
-            for letter in tmp:
-                if tmp.count(letter) != count_dict[letter]:
-                    solution = False
-                    break
-            if solution:
+        for idx in range(size_1, size_2):
+            if count_dict == tmp_dict:
                 return True
-        
+            tmp_dict[s2[idx-size_1]] -= 1
+            tmp_dict[s2[idx]] += 1
+
+        if count_dict == tmp_dict:
+            return True
         return False
