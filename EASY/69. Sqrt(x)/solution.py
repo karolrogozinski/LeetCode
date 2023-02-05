@@ -16,4 +16,3 @@ class Solution:
                 break
 
         return left
-
