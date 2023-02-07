@@ -1,7 +1,6 @@
 class Solution:
     def totalFruit(self, fruits: list[int]) -> int:
         max_length = 0
-        curr_length = 0
         unique = 0
         start_idx = 0
         basket = dict()
@@ -15,9 +14,7 @@ class Solution:
                 basket[fruit] += 1
             
             if unique <= 2:
-                curr_length += 1
-                if curr_length > max_length:
-                    max_length = curr_length
+                max_length += 1
                 continue
 
             start_fruit = fruits[start_idx]
