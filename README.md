@@ -18,6 +18,7 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |438. Find All Anagrams in a String|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/438.%20Find%20All%20Anagrams%20in%20a%20String)| 🟡 Medium  |
 |567. Permutation in String|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/567.%20Permutation%20in%20String)| 🟡 Medium |
 |904. Fruit Into Baskets|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/904.%20Fruit%20Into%20Baskets)| 🟡 Medium |
+|953. Verifying an Alien Dictionary|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/953.%20Verifying%20an%20Alien%20Dictionary)| 🟢 Easy |
 |1470. Shuffle the Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/1470.%20Shuffle%20the%20Array)| 🟢 Easy |
 
 🔴
