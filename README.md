@@ -20,6 +20,7 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |567. Permutation in String|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/567.%20Permutation%20in%20String)| 🟡 Medium |
 |904. Fruit Into Baskets|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/904.%20Fruit%20Into%20Baskets)| 🟡 Medium |
 |953. Verifying an Alien Dictionary|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/953.%20Verifying%20an%20Alien%20Dictionary)| 🟢 Easy |
+|1129. Shortest Path with Alternating Colors[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/1129.%20Shortest%20Path%20with%20Alternating%20Colors)| 🟡 Medium |
 |1162. As Far from Land as Possible|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/1162.%20As%20Far%20from%20Land%20as%20Possible)| 🟡 Medium |
 |1470. Shuffle the Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/1470.%20Shuffle%20the%20Array)| 🟢 Easy |
 
