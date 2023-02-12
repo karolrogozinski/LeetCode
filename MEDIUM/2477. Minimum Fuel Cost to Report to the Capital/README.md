@@ -16,7 +16,6 @@ Return the minimum number of liters of fuel to reach the capital city.
 
 ```
 Input: roads = [[0,1],[0,2],[0,3]], seats = 5
-```
 Output: 3
 Explanation: 
 - Representative1 goes directly to the capital with 1 liter of fuel.
