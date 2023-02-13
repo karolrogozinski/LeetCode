@@ -23,6 +23,7 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |1129. Shortest Path with Alternating Colors|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/1129.%20Shortest%20Path%20with%20Alternating%20Colors)| 🟡 Medium |
 |1162. As Far from Land as Possible|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/1162.%20As%20Far%20from%20Land%20as%20Possible)| 🟡 Medium |
 |1470. Shuffle the Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/1470.%20Shuffle%20the%20Array)| 🟢 Easy |
+|1523. Count Odd Numbers in an Interval Range|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range)| 🟢 Easy |
 |2477. Minimum Fuel Cost to Report to the Capital|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/2477.%20Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital)| 🟡 Medium |
 
 🔴
