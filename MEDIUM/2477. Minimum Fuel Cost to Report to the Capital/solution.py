@@ -1,3 +1,5 @@
+import math
+
 class Solution:
     def minimumFuelCost(self, roads: list[list[int]], seats: int) -> int:
         road_map = {x: [] for x in range(len(roads) + 1)}
@@ -16,7 +18,7 @@ class Solution:
                     continue
                 num_seats += go_deeper(child, node)
 
-            result += ceil(num_seats/seats) if node else 0
+            result += math.ceil(num_seats/seats) if node else 0
             return num_seats
 
         go_deeper(0, 0)
