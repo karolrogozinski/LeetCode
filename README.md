@@ -13,6 +13,7 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |26. Remove Duplicates from Sorted Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/26.%20Remove%20Duplicates%20from%20Sorted%20Array)| 🟢 Easy |
 |45. Jump Game II|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/45.%20Jump%20Game%20II)| 🟡 Medium |
 |66. Plus One|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/66.%20Plus%20One)| 🟢 Easy |
+|67. Add Binary[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/67.%20Add%20Binary)| 🟢 Easy |
 |69. Sqrt(x)|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/69.%20Sqrt(x))| 🟢 Easy |
 |70. Climbing Stairs|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/70.%20Climbing%20Stairs)| 🟢 Easy |
 |88. Merge Sorted Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/88.%20Merge%20Sorted%20Array)| 🟢 Easy |
