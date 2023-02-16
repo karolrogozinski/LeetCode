@@ -17,6 +17,7 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |69. Sqrt(x)|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/69.%20Sqrt(x))| 🟢 Easy |
 |70. Climbing Stairs|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/70.%20Climbing%20Stairs)| 🟢 Easy |
 |88. Merge Sorted Array|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/88.%20Merge%20Sorted%20Array)| 🟢 Easy |
+|104. Maximum Depth of Binary Tree|[Solution]https://github.com/karolrogozinski/LeetCode/tree/main/EASY/104.%20Maximum%20Depth%20of%20Binary%20Tree)| 🟢 Easy |
 |438. Find All Anagrams in a String|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/438.%20Find%20All%20Anagrams%20in%20a%20String)| 🟡 Medium  |
 |567. Permutation in String|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/567.%20Permutation%20in%20String)| 🟡 Medium |
 |904. Fruit Into Baskets|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/904.%20Fruit%20Into%20Baskets)| 🟡 Medium |
