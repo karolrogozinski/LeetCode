@@ -35,3 +35,36 @@ class Solution:
 
         invert(root)
         return root
+    
+    
+
+# 103. Binary Tree Zigzag Level Order Traversal
+    
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        queue = deque()
+        queue.append(root)
+        result = []
+        right = False
+
+        while queue:
+            tmp = []
+            for idx in range(len(queue)):
+                curr = queue.popleft()
+                if curr:
+                    tmp.insert(0 if right else len(tmp), curr.val)
+                    if curr.left:
+                        queue.append(curr.left)
+                    if curr.right:
+                        queue.append(curr.right)
+            right = not right
+            if tmp:
+                result.append(tmp)
+        
+        return result
