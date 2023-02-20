@@ -68,3 +68,17 @@ class Solution:
                 result.append(tmp)
         
         return result
+
+# 35. Search Insert Position 
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        low, high = 0, len(nums) - 1
+        while low <= high:
+            mid = (low + high) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                high = mid - 1
+            else:
+                low = mid + 1
+        return low
