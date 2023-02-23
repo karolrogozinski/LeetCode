@@ -29,4 +29,4 @@ Solutions of little algorithmic problems from LeetCode platform, written in pyth
 |1523. Count Odd Numbers in an Interval Range|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/EASY/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range)| 🟢 Easy |
 |2477. Minimum Fuel Cost to Report to the Capital|[Solution](https://github.com/karolrogozinski/LeetCode/tree/main/MEDIUM/2477.%20Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital)| 🟡 Medium |
 
-🔴
+🔴 
